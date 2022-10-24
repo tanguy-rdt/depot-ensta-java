@@ -34,16 +34,15 @@
     | `double`  | Pour un décimale sur 64 bits |
     | `boolean` | `TRUE` or `FALSE`            |
 
-
+​		
 
     | Visibilité | Informations                                           |
     | ---------- | ------------------------------------------------------ |
     | `public`   | Visibilité public pour tout le monde                   |
-    | `private`  | Visibilité public uniquement pour la classe à laquelle la variable appartient, sinon pour les autres classes cette variable n'existe pas. |
+    | `private`  | Visibilité public uniquement pour la classe à laquelle la variable appartient |
+    | `protected`| Visibilité pour le package et toutes les sous-classes |
 
-
-
-    Si le mot clé `final` est placé devant le type de la variable, celle-ci est immutable *(constante)*, sinon la variable est mutable.
+​		Si le mot clé `final` est placé devant le type de la variable, celle-ci est immutable *(constante)*, sinon la variable est 		mutable.
 
 
 
@@ -108,17 +107,24 @@
    ```
 
    >  Hello world !
-
+   
+   Une méthode correspond à une fonction en *java*.
+   
+   La visibilité pour une variable est également nécessaire pour une méthode *(public, private, protected)*.
 
 ​		
 
-​		Une méthode correspond à une fonction en *java*.
+4. **Les *keywords*:**
 
-​		
+   - `final` &rarr; Une variables est normalement mutable, avec le *keyword* `final` une variable devient immutable (constante)
+
+   - `static` &rarr;  Si le mot clé `static` est utilisé devant une classe, celle-ci ne dépend pas d'un objet. Elle est alors modifié directement en cas de changement de valeurs et ses méthode sont appelé sans objets.
+
+
 
 ## Les classes
 
-
+super
 
 
 
