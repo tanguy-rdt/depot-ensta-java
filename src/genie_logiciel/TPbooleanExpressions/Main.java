@@ -12,10 +12,10 @@ public class Main {
         BooleanExpression notAnExpression1 = new BExpNot(anExpression1);
 
 
-        System.out.println("true & false = " + trueAndFalse.evaluate());
-        System.out.println("true | false = " + trueOrFalse.evaluate());
-        System.out.println("not true = " + notConstantTrue.evaluate());
-        System.out.println("((true|false)&(true&false)) = " + anExpression1.evaluate());
-        System.out.println("not((true|false)&(true&false)) = " + notAnExpression1.evaluate());
+        System.out.println(trueAndFalse + "=" + trueAndFalse.evaluate());
+        System.out.println(trueOrFalse  + "=" + trueOrFalse.evaluate());
+        System.out.println(notConstantTrue  + "=" + notConstantTrue.evaluate());
+        System.out.println(anExpression1  + "=" + anExpression1.evaluate());
+        System.out.println(notAnExpression1  + "=" + notAnExpression1.evaluate());
     }
 }

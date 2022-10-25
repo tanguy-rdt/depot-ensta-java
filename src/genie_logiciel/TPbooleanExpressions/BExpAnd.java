@@ -17,7 +17,9 @@ public class BExpAnd implements BExpBinaryOperator{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "(" + leftHandArgument.evaluate() +
+                " & " + rightHandArgument.evaluate() +
+                ')';
     }
 
     public BooleanExpression getLeftHandArgument(){

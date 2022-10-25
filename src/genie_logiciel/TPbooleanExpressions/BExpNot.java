@@ -14,7 +14,7 @@ public class BExpNot implements BExpUnaryOperator{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "~" + this.argument.evaluate();
     }
 
     @Override

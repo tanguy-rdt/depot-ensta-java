@@ -12,7 +12,9 @@ public class BExpOr implements BExpBinaryOperator{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "(" + leftHandArgument.evaluate() +
+                " | " + rightHandArgument.evaluate() +
+                ')';
     }
 
     @Override

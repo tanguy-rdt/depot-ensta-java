@@ -11,7 +11,6 @@ public class InfixValue extends InfixExpressionBase {
     }
 
     public void setValue(int value){
-
         this.value = value;
         notifyAllObserver();
     }
@@ -19,7 +18,6 @@ public class InfixValue extends InfixExpressionBase {
     public int getValue(){
         return value;
     }
-
 
 
     @Override

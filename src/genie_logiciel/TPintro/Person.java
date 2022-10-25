@@ -32,11 +32,5 @@ public class Person{
         System.out.println("My name is " + firstName + " " + lastName + " and I'm " + age + " years old.");
     }
 
-    static public void main(String[] args) {
-        Person alice = new Person("Alice", "Alpha", 20);
-
-        alice.introduceYourself();
-    }
-
 }
 
