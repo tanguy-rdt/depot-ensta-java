@@ -307,15 +307,5 @@ public class Dog implements GeneralThings{
 ```
 
 
-
-
-
-
-## Les `enum`
-
-
-
-
-
 ## L'Observateur
 
